@@ -89,14 +89,16 @@ const Contacts = ({ users, loading, onEdit, editId }) => {
                   fontFamily: "'Girassol', cursive",
                   fontWeight: "bold",
                   color: "text.primary",
-                  fontSize: 1.5,
+                  fontSize: "1.1rem",
                 }}
-              ><b>Contact Name</b></TableCell>
+              >Contact Name</TableCell>
               <TableCell 
                 sx={{ 
                   fontFamily: "'Girassol', cursive",
                   fontWeight: "bold",
                   color: "text.primary",
+                  fontSize: "1.1rem",
+
                 }}
               >Phone Number</TableCell>
               <TableCell 
@@ -104,6 +106,7 @@ const Contacts = ({ users, loading, onEdit, editId }) => {
                   fontFamily: "'Girassol', cursive",
                   fontWeight: "bold",
                   color: "text.primary",
+                  fontSize: "1.1rem",
                 }}
               >Gender</TableCell>
               <TableCell 
@@ -112,6 +115,7 @@ const Contacts = ({ users, loading, onEdit, editId }) => {
                   fontFamily: "'Girassol', cursive",
                   fontWeight: "bold",
                   color: "text.primary",
+                  fontSize: "1.1rem",
                 }}
                 >Edit</TableCell>
               <TableCell 
@@ -120,6 +124,7 @@ const Contacts = ({ users, loading, onEdit, editId }) => {
                   fontFamily: "'Girassol', cursive",
                   fontWeight: "bold",
                   color: "text.primary",
+                  fontSize: "1.1rem",
                 }}
               >Delete</TableCell>
             </TableRow>
