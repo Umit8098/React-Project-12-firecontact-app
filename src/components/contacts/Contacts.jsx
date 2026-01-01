@@ -79,14 +79,48 @@ const Contacts = ({ users, loading, onEdit, editId }) => {
         <Table>
           {/* Table Head */}
           <TableHead >
-            <TableRow >
-              <TableCell sx={{ 
-              fontFamily: "'Girassol', cursive",
-            }}><b>Contact Name</b></TableCell>
-              <TableCell><b>Phone Number</b></TableCell>
-              <TableCell><b>Gender</b></TableCell>
-              <TableCell align="center"><b>Edit</b></TableCell>
-              <TableCell align="center"><b>Delete</b></TableCell>
+            <TableRow 
+              sx={{
+                bgcolor: "background.paper",
+              }} 
+            >
+              <TableCell 
+                sx={{ 
+                  fontFamily: "'Girassol', cursive",
+                  fontWeight: "bold",
+                  color: "text.primary",
+                }}
+              ><b>Contact Name</b></TableCell>
+              <TableCell 
+                sx={{ 
+                  fontFamily: "'Girassol', cursive",
+                  fontWeight: "bold",
+                  color: "text.primary",
+                }}
+              >Phone Number</TableCell>
+              <TableCell 
+                sx={{ 
+                  fontFamily: "'Girassol', cursive",
+                  fontWeight: "bold",
+                  color: "text.primary",
+                }}
+              >Gender</TableCell>
+              <TableCell 
+                align="center"
+                sx={{ 
+                  fontFamily: "'Girassol', cursive",
+                  fontWeight: "bold",
+                  color: "text.primary",
+                }}
+                ><b>Edit</b></TableCell>
+              <TableCell 
+                align="center"
+                sx={{ 
+                  fontFamily: "'Girassol', cursive",
+                  fontWeight: "bold",
+                  color: "text.primary",
+                }}
+              ><b>Delete</b></TableCell>
             </TableRow>
           </TableHead>
 
