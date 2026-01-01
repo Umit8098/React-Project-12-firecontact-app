@@ -35,9 +35,10 @@ const Landing = () => {
       {/* HERO */}
       <Box
         sx={{
-          minHeight: "70vh",
+          minHeight: "30vh",
           display: "flex",
           alignItems: "center",
+          textAlign: "center",
           background:
             "linear-gradient(135deg, #1976d2 30%, #42a5f5 90%)",
           color: "white",
@@ -64,17 +65,32 @@ const Landing = () => {
       </Box>
 
       {/* FEATURES */}
-      <Container maxWidth="md" sx={{ mt: 8 }}>
-        <Grid container spacing={4}>
+      <Container maxWidth="lg" sx={{ mt: 8 }}>
+        <Grid container spacing={4} justifyContent="center">
           {features.map((f, i) => (
-            <Grid item xs={12} md={4} key={i}>
-              <Card elevation={3}>
-                <CardContent sx={{ textAlign: "center" }}>
+            <Grid item key={i}>
+              <Card 
+                elevation={3}
+                sx={{
+                  width: 320,
+                  display: "flex",
+                  flexDirection: "column",
+                  }}
+                >
+                <CardContent 
+                  sx={{ 
+                    textAlign: "center",
+                    flexGrow: 1 
+                  }}
+                >
                   <Typography fontSize={40}>{f.icon}</Typography>
                   <Typography variant="h6" mt={2} mb={1}>
                     {f.title}
                   </Typography>
-                  <Typography color="text.secondary">
+                  <Typography 
+                    color="text.secondary"
+                    textAlign="center" 
+                  >
                     {f.desc}
                   </Typography>
                 </CardContent>
