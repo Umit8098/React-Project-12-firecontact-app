@@ -89,6 +89,7 @@ const Contacts = ({ users, loading, onEdit, editId }) => {
                   fontFamily: "'Girassol', cursive",
                   fontWeight: "bold",
                   color: "text.primary",
+                  fontSize: 1.5,
                 }}
               ><b>Contact Name</b></TableCell>
               <TableCell 
@@ -112,7 +113,7 @@ const Contacts = ({ users, loading, onEdit, editId }) => {
                   fontWeight: "bold",
                   color: "text.primary",
                 }}
-                ><b>Edit</b></TableCell>
+                >Edit</TableCell>
               <TableCell 
                 align="center"
                 sx={{ 
@@ -120,7 +121,7 @@ const Contacts = ({ users, loading, onEdit, editId }) => {
                   fontWeight: "bold",
                   color: "text.primary",
                 }}
-              ><b>Delete</b></TableCell>
+              >Delete</TableCell>
             </TableRow>
           </TableHead>
 
