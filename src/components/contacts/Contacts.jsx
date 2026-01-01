@@ -152,10 +152,13 @@ const Contacts = ({ users, loading, onEdit, editId }) => {
                   users.map((user) => (
                     <TableRow 
                       key={user.id}
-                      sx={{
-                        bgcolor: editId === user.id ? "background.paper" : "inherit",
+                      sx={(theme)=>({
+                        bgcolor: editId === user.id ? theme.palette.action.selected : "inherit",
+                        "&:hover": {
+                          bgcolor: theme.palette.action.hover,
+                        },
                         transition: "0.3s",
-                      }}
+                      })}
                     >
                       <TableCell>{user.user_name}</TableCell>
                       <TableCell>{user.phone_number}</TableCell>
