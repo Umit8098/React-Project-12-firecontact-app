@@ -27,6 +27,7 @@
 - [🗂️ Project Skeleton](#️-project-skeleton)
 - [🛠️ Built With](#️-built-with)
 - [⚡ How To Use](#-how-to-use)
+  - [🔐 Google Authentication Note](#-google-authentication-note)
 - [📌 About This Project](#-about-this-project)
 - [🙏 Acknowledgements](#-acknowledgements)
 - [📬 Contact](#-contact)
@@ -66,6 +67,9 @@
 * Contact ekleyebilir, güncelleyebilir ve silebilir
 
 🔸 Uygulama, authentication tabanlı korumalı route yapısı ile yalnızca giriş yapmış kullanıcıların /app alanına erişmesine izin verir.
+
+🔸 🌙 Dark / Light Theme (theme context, palette, UI uyumu)
+
 🔸 Proje boyunca temiz kod, component bazlı mimari ve modern React best practice’leri hedeflenmiştir.
 
 ---
@@ -96,6 +100,8 @@
 * 💬 **React-Toastify**
   * Kullanıcı geri bildirimleri
 * 🚀 **Netlify Deployment**
+  * SPA refresh sorunu
+  * _redirects / cache meselesi
   
 ---
 
@@ -181,6 +187,25 @@ npm run dev
 🔸 Then open http://localhost:3000 to view it in your browser.
 
 ---
+
+### 🔐 Google Authentication Note
+
+🔸 If you deploy the app to Netlify (or another hosting provider),  
+make sure to add your deployed domain to Firebase:
+
+🔸 Firebase Console → Authentication → Settings → Authorized domains
+
+🔸 Otherwise, Google Sign-In will work locally but fail in production.
+
+- Example:
+```txt
+umitdev-firecontact.netlify.app
+```
+
+🔸 Without this step, Google Authentication will be blocked in production.
+
+---
+
 
 ## 📌 About This Project
 
