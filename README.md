@@ -61,10 +61,11 @@
 ## 📖 Description
 
 🔸 React ve Firebase kullanılarak geliştirilmiş modern bir Contact Management Application’dır.
+
 🔸 Kullanıcılar:
-* Email/Password veya Google ile giriş yapabilir
-* Kendi contact listesini oluşturabilir
-* Contact ekleyebilir, güncelleyebilir ve silebilir
+  * Email/Password veya Google ile giriş yapabilir
+  * Kendi contact listesini oluşturabilir
+  * Contact ekleyebilir, güncelleyebilir ve silebilir
 
 🔸 Uygulama, authentication tabanlı korumalı route yapısı ile yalnızca giriş yapmış kullanıcıların /app alanına erişmesine izin verir.
 
