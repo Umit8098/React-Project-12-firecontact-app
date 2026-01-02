@@ -21,7 +21,6 @@
 
 - [📚 Table of Contents](#-table-of-contents)
 - [✨ Overview](#-overview)
-- [](#)
 - [📖 Description](#-description)
 - [🚀 Features](#-features)
 - [🗂️ Project Skeleton](#️-project-skeleton)
@@ -49,15 +48,14 @@
 
   ---
   <img src="./src/img/firecontact-dark.png" alt="contacts-app-dark" width="700"/>
+
   ---
 
 </div>
 
 
----
 
  
-
 ## 📖 Description
 
 🔸 React ve Firebase kullanılarak geliştirilmiş modern bir Contact Management Application’dır.
