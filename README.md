@@ -14,7 +14,7 @@
 </div>
 
 <p align="center">
-  <img src="./img/movie-app.gif" alt="React Movie App" width="800"/>
+  <img src="./src/img/firecontact-app.gif" alt="Firecontact App" width="800"/>
 </p>
 
 ## 📚 Table of Contents
@@ -38,17 +38,17 @@
 
 <div align="center"> 
 
-  <img src="./img/landing.png" alt="landing" width="700"/>
+  <img src="./src/img/firecontact-landing.png" alt="landing" width="700"/>
   
   --- 
   
-  <img src="./img/login.png" alt="login" width="700"/> 
+  <img src="./src/img/firecontact-login.png" alt="login" width="700"/> 
 
   ---
-  <img src="./img/app.png" alt="contacts-app" width="700"/> 
+  <img src="./src/img/firecontact-register.png" alt="register" width="700"/> 
 
   ---
-  <img src="./img/app-dark.png" alt="contacts-app-dark" width="700"/>
+  <img src="./src/img/firecontact-dark.png" alt="contacts-app-dark" width="700"/>
   ---
 
 </div>
