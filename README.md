@@ -223,8 +223,6 @@ umitdev-firecontact.netlify.app
   * Firebase ile frontend entegrasyonu
 konularını gerçek bir uygulama senaryosu üzerinden pekiştirmek amacıyla geliştirilmiştir.
 
-🔸 Aynı zamanda bu proje, junior → mid-level frontend geçişi için güçlü bir portfolio örneğidir.
-
 
 ---
 
