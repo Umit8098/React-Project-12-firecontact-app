@@ -28,7 +28,7 @@ A modern contact management app with Firebase authentication & real-time databas
   <img src="./src/img/firecontact-app.gif" alt="Firecontact App" width="800"/>
 </p>
 
-## 📚 Navigations
+## 📚 Navigation
 
 - [📚 Table of Contents](#-table-of-contents)
 - [✨ Overview](#-overview)
