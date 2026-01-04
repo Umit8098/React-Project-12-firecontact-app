@@ -1,5 +1,16 @@
 
+<p align="center">
+  <img src="https://img.shields.io/badge/React-Firebase-blue?logo=react" />
+  <img src="https://img.shields.io/badge/Auth-Google%20%2F%20Email-success" />
+  <img src="https://img.shields.io/badge/CRUD-Contacts-orange" />
+</p>
+
 <h1 align="center">📌 React Firebase Contacts App</h1>
+
+<p align="center">
+A modern contact management app with Firebase authentication & real-time database.
+</p>
+
 
 <div align="center">
   <h3>
@@ -17,7 +28,7 @@
   <img src="./src/img/firecontact-app.gif" alt="Firecontact App" width="800"/>
 </p>
 
-## 📚 Table of Contents
+## 📚 Navigations
 
 - [📚 Table of Contents](#-table-of-contents)
 - [✨ Overview](#-overview)
