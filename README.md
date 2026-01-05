@@ -15,7 +15,7 @@ A modern contact management app with Firebase authentication & real-time databas
 <div align="center">
   <h3>
     <a href="https://firebase-movie-app-umitdev.netlify.app/">
-      🖥️ Demo
+      🖥️ Live Demo
     </a>
      | 
     <a href="https://github.com/Umit8098/React-Project-Firebase-Movie-App.git">
