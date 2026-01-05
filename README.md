@@ -30,7 +30,6 @@ A modern contact management app with Firebase authentication & real-time databas
 
 ## 📚 Navigation
 
-- [📚 Table of Contents](#-table-of-contents)
 - [✨ Overview](#-overview)
 - [📖 Description](#-description)
 - [🚀 Features](#-features)
