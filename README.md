@@ -19,7 +19,7 @@ A modern contact management app with Firebase authentication & real-time databas
     </a>
      | 
     <a href="https://github.com/Umit8098/React-Project-Firebase-Movie-App.git">
-      📂 Repository
+      📂 Project
     </a>
   </h3>
 </div>
